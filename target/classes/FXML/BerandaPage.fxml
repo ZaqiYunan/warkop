@@ -114,9 +114,9 @@
                         <Font name="Century Gothic Bold" size="30.0" />
                      </font>
                   </Label>
-                  <ProgressBar layoutX="1148.0" layoutY="360.0" prefWidth="200.0" progress="0.84" style="-fx-background-color: GREEN;" />
-                  <ProgressBar layoutX="1216.0" layoutY="451.0" prefWidth="200.0" progress="0.47" style="-fx-background-color: GREEN;" />
-                  <ProgressBar layoutX="1148.0" layoutY="550.0" prefWidth="200.0" progress="0.18" style="-fx-background-color: GREEN;" />
+                  <ProgressBar fx:id="progresDasar" layoutX="1148.0" layoutY="360.0" prefWidth="200.0" progress="0.84" style="-fx-background-color: GREEN;" />
+                  <ProgressBar layoutX="1216.0" layoutY="451.0" prefWidth="200.0" progress="0.0" style="-fx-background-color: GREEN;" />
+                  <ProgressBar layoutX="1148.0" layoutY="550.0" prefWidth="200.0" progress="0.0" style="-fx-background-color: GREEN;" />
                   <Label alignment="TOP_CENTER" blendMode="SRC_ATOP" ellipsisString="" layoutX="1371.0" layoutY="664.0" prefHeight="63.0" prefWidth="386.0" text="Materi Pelatihan" textOverrun="WORD_ELLIPSIS">
                      <font>
                         <Font name="Century Gothic Bold" size="48.0" />

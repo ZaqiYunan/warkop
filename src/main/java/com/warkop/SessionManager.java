@@ -85,7 +85,10 @@ public class SessionManager {
         FXMLLoader loads = new FXMLLoader(getClass().getResource("/FXML/AdminPage.fxml"));
         createStage(loads);
     }
-    
+    public void getMateriView(){
+        FXMLLoader loads = new FXMLLoader(getClass().getResource("/FXML/Materi.fxml"));
+        createStage(loads);
+    }
     
 
 

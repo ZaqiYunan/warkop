@@ -47,6 +47,10 @@ public class MateriPelatihanPageController implements Initializable {
     private Label labelHome;
     @FXML
     private Label labelNamaAkun;
+    @FXML
+    private Button tombolFundamenBisnis;
+    @FXML
+    private Button tombolDigitalisasiPasar;
 
     @Override
     public void initialize(URL location, ResourceBundle resources){
@@ -79,6 +83,15 @@ public class MateriPelatihanPageController implements Initializable {
     public void handleSertifikasiAction(){
         AccountModel.getInstance().getSessionManager().removeStage(Stage.class.cast(tombolSertifikasi.getScene().getWindow()));
         AccountModel.getInstance().getSessionManager().getSertifikasiView();
+        
+    }
+    public void handleFundamenBisnisAction(){   
+        AccountModel.getInstance().getSessionManager().getMateriView();
+    }
+    public void handleDigitalisasiPasarAction(){
+        AccountModel.getInstance().getSessionManager().getMateriView();
+    }
+    public void tambahProgres(){
         
     }
 }

@@ -170,8 +170,12 @@ public class BerandaPageController implements Initializable {
     }
 
     public void handleSertifikasiAction() {
-        AccountModel.getInstance().getSessionManager().removeStage((Stage) tombolSertifikasi.getScene().getWindow());
-        AccountModel.getInstance().getSessionManager().getSertifikasiView();
+        if (getCurrentUserRole().equals("Guest")) {
+            showAlert("Error", "Access Denied", "Please log in to access this feature.");
+        } else {
+            AccountModel.getInstance().getSessionManager().removeStage((Stage) tombolSertifikasi.getScene().getWindow());
+            AccountModel.getInstance().getSessionManager().getSertifikasiView();
+        }
     }
 
     public void handleMateriPelatihanAction() {
@@ -251,4 +255,5 @@ public class BerandaPageController implements Initializable {
         alert.setContentText(content);
         alert.showAndWait();
     }
+
 }

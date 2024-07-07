@@ -26,7 +26,7 @@ public class UserAcount {
         this.namaLengkap = namaLengkap;
         this.email = email;
         this.password = password;
-        setCurrentUser(this); // Set the current user when setting account details
+        setCurrentUser(this);
     }
 
     public void removeUserAccount() {
@@ -77,5 +77,6 @@ public class UserAcount {
     public void setPassword(String password){
         this.password = password;
     }
+ 
 }
 

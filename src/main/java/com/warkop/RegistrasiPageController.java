@@ -113,7 +113,7 @@ public class RegistrasiPageController {
 
             // Create a new user account
             UserAcount newUser = new UserAcount();
-            newUser.setUserAccount(UUID.randomUUID().toString(), "Guest", namaLengkap, email, password);
+            newUser.setUserAccount(UUID.randomUUID().toString(),"Guest", namaLengkap, email, password);
 
             // Create JSON object for new user
             JsonObject newUserObject = new JsonObject();

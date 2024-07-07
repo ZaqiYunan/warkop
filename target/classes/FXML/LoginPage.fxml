@@ -41,6 +41,11 @@
                </font>
             </Label>
             <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="678.0" layoutX="666.75" layoutY="232.75" stroke="WHITE" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="OUTSIDE" strokeWidth="0.0" width="646.0" />
+            <Button fx:id="tombolRegistrasi" layoutX="1612.75" layoutY="30.75" mnemonicParsing="false" onAction="#handleRegistrasiButtonAction" prefHeight="79.0" prefWidth="234.0" style="-fx-background-color: black;" text="Registrasi" textFill="WHITE">
+               <font>
+                  <Font name="Century Gothic Bold" size="26.0" />
+               </font>
+            </Button>
             <Button fx:id="tombolMasuk" layoutX="726.75" layoutY="788.75" mnemonicParsing="false" onAction="#handleSignInButtonAction" prefHeight="69.0" prefWidth="502.0" style="-fx-background-color: black;" text="Masuk" textFill="WHITE">
                <font>
                   <Font name="Century Gothic Bold" size="33.0" />
@@ -104,11 +109,6 @@
                </font>
             </Label>
             <CheckBox fx:id="tombolCaptcha" layoutX="723.75" layoutY="639.75" mnemonicParsing="false" onAction="#handlelabelCaptchaAction" prefHeight="34.0" prefWidth="59.0" textFill="WHITE" />
-            <Button fx:id="tombolRegistrasi" layoutX="1612.75" layoutY="30.75" mnemonicParsing="false" onAction="#handleRegistrasiButtonAction" prefHeight="79.0" prefWidth="234.0" style="-fx-background-color: black;" text="Registrasi" textFill="WHITE">
-               <font>
-                  <Font name="Century Gothic Bold" size="26.0" />
-               </font>
-            </Button>
             <Label fx:id="errorLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="731.75" layoutY="741.75">
                <font>
                   <Font name="Century Gothic Bold" size="22.0" />
