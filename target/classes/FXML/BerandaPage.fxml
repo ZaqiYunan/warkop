@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="berandaPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1068.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.warkop.BerandaPageController">
+   <children>
+      <ScrollPane fx:id="scrollPane" prefHeight="1065.0" prefWidth="1922.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="2034.0" prefWidth="1920.0">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e1e81d" height="1033.0" layoutX="-1.0" layoutY="1055.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" width="1921.0" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#5ce2ed" height="964.0" layoutX="-58.0" layoutY="99.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" width="994.0" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#4cf2cb" height="972.0" layoutX="931.0" layoutY="92.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" width="1086.0" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#3362ff" height="73.0" layoutX="1490.0" layoutY="87.0" onMouseEntered="#handleKeluarActionHover" stroke="BLACK" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="OUTSIDE" width="218.0" />
+                  <Rectangle fx:id="rectangleKeluar" arcHeight="15.0" arcWidth="15.0" fill="#ff2200" height="36.0" layoutX="1787.0" layoutY="97.0" onMouseEntered="#handleKeluarActionHover" stroke="BLACK" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="OUTSIDE" width="119.0" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="114.0" layoutX="-48.0" layoutY="-12.0" stroke="BLACK" strokeLineJoin="ROUND" strokeType="INSIDE" strokeWidth="5.0" width="2034.0" />
+                  <ImageView fitHeight="139.0" fitWidth="139.0" layoutX="1777.0" layoutY="-20.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../IMAGES/IconAccount.png" />
+                     </image>
+                  </ImageView>
+                  <Button fx:id="tombolKeluar" layoutX="1791.0" layoutY="102.0" mnemonicParsing="false" onAction="#handleKeluarAction" prefHeight="27.0" prefWidth="111.0" style="-fx-background-color: #ff2200;" text="Keluar" textFill="WHITE">
+                     <font>
+                        <Font name="Century Gothic Bold" size="15.0" />
+                     </font>
+                  </Button>
+                  <Label alignment="TOP_CENTER" blendMode="SRC_ATOP" ellipsisString="" layoutX="413.0" layoutY="37.0" prefWidth="103.0" text="Home" textOverrun="WORD_ELLIPSIS" underline="true">
+                     <font>
+                        <Font name="Century Gothic Bold" size="29.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="labelSertifikasi" alignment="TOP_CENTER" blendMode="SRC_ATOP" ellipsisString="" layoutX="582.0" layoutY="37.0" text="Sertifikasi" textOverrun="WORD_ELLIPSIS">
+                     <font>
+                        <Font name="Century Gothic Bold" size="29.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="labelMateriPelatihan" alignment="TOP_CENTER" blendMode="SRC_ATOP" ellipsisString="" layoutX="788.0" layoutY="37.0" onDragDetected="#handleMateriPelatihanAction" text="Materi Pelatihan" textOverrun="WORD_ELLIPSIS">
+                     <font>
+                        <Font name="Century Gothic Bold" size="29.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="labelKalenderInteraktif" alignment="TOP_CENTER" blendMode="SRC_ATOP" ellipsisString="" layoutX="1059.0" layoutY="37.0" text="Kalender Interaktif" textOverrun="WORD_ELLIPSIS">
+                     <font>
+                        <Font name="Century Gothic Bold" size="29.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="labelNamaAkun" alignment="TOP_CENTER" blendMode="SRC_ATOP" ellipsisString="" layoutX="1636.0" layoutY="30.0" text="NamaAkun" textOverrun="WORD_ELLIPSIS">
+                     <font>
+                        <Font name="Century Gothic Bold" size="29.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="labelChatBox" alignment="TOP_CENTER" blendMode="SRC_ATOP" ellipsisString="" layoutX="1361.0" layoutY="37.0" text="Chatbox" textOverrun="WORD_ELLIPSIS">
+                     <font>
+                        <Font name="Century Gothic Bold" size="29.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="139.0" fitWidth="272.0" layoutX="79.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../IMAGES/WarkopLogo.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="TOP_CENTER" blendMode="SRC_ATOP" ellipsisString="" layoutX="31.0" layoutY="312.0" prefHeight="187.0" prefWidth="841.0" text="Belajar, Berkembang dan Sukses" textOverrun="WORD_ELLIPSIS">
+                     <font>
+                        <Font name="Century Gothic Bold" size="48.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="TOP_CENTER" blendMode="SRC_ATOP" ellipsisString="" layoutX="-90.0" layoutY="390.0" prefHeight="187.0" prefWidth="841.0" text="Bersama " textOverrun="WORD_ELLIPSIS">
+                     <font>
+                        <Font name="Century Gothic Bold" size="48.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="TOP_CENTER" blendMode="SRC_ATOP" ellipsisString="" layoutX="409.0" layoutY="390.0" prefHeight="63.0" prefWidth="254.0" text="Warkop" textFill="#038d4c" textOverrun="WORD_ELLIPSIS" underline="true">
+                     <font>
+                        <Font name="Century Gothic Bold" size="48.0" />
+                     </font>
+                  </Label>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="503.0" layoutX="994.0" layoutY="188.0" stroke="BLACK" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeMiterLimit="80.0" strokeType="OUTSIDE" strokeWidth="2.0" style="-fx-arc-height: 10; -fx-arc-width: 15;" width="456.0">
+                     <effect>
+                        <DropShadow color="#575757" height="13.35" offsetX="8.0" offsetY="8.0" radius="2.8375" width="0.0" />
+                     </effect>
+                  </Rectangle>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="323.0" layoutX="1283.0" layoutY="657.0" stroke="BLACK" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeMiterLimit="80.0" strokeType="OUTSIDE" strokeWidth="2.0" style="-fx-arc-height: 10; -fx-arc-width: 15;" width="558.0">
+                     <effect>
+                        <DropShadow color="#575757" height="13.35" offsetX="8.0" offsetY="8.0" radius="2.8375" width="0.0" />
+                     </effect>
+                  </Rectangle>
+                  <Label alignment="TOP_CENTER" blendMode="SRC_ATOP" ellipsisString="" layoutX="1026.0" layoutY="215.0" prefHeight="63.0" prefWidth="386.0" text="Progres Anda" textOverrun="WORD_ELLIPSIS">
+                     <font>
+                        <Font name="Century Gothic Bold" size="48.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="TOP_CENTER" blendMode="SRC_ATOP" ellipsisString="" layoutX="998.0" layoutY="348.0" prefHeight="43.0" prefWidth="125.0" text="Dasar" textOverrun="WORD_ELLIPSIS">
+                     <font>
+                        <Font name="Century Gothic Bold" size="30.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="TOP_CENTER" blendMode="SRC_ATOP" ellipsisString="" layoutX="993.0" layoutY="438.0" prefHeight="38.0" prefWidth="213.0" text="Menengah" textOverrun="WORD_ELLIPSIS">
+                     <font>
+                        <Font name="Century Gothic Bold" size="30.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="TOP_CENTER" blendMode="SRC_ATOP" ellipsisString="" layoutX="987.0" layoutY="539.0" prefHeight="34.0" prefWidth="161.0" text="Lanjut" textOverrun="WORD_ELLIPSIS">
+                     <font>
+                        <Font name="Century Gothic Bold" size="30.0" />
+                     </font>
+                  </Label>
+                  <ProgressBar layoutX="1148.0" layoutY="360.0" prefWidth="200.0" progress="0.84" style="-fx-background-color: GREEN;" />
+                  <ProgressBar layoutX="1216.0" layoutY="451.0" prefWidth="200.0" progress="0.47" style="-fx-background-color: GREEN;" />
+                  <ProgressBar layoutX="1148.0" layoutY="550.0" prefWidth="200.0" progress="0.18" style="-fx-background-color: GREEN;" />
+                  <Label alignment="TOP_CENTER" blendMode="SRC_ATOP" ellipsisString="" layoutX="1371.0" layoutY="664.0" prefHeight="63.0" prefWidth="386.0" text="Materi Pelatihan" textOverrun="WORD_ELLIPSIS">
+                     <font>
+                        <Font name="Century Gothic Bold" size="48.0" />
+                     </font>
+                  </Label>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#498dd7" height="99.0" layoutX="287.0" layoutY="537.0" stroke="BLACK" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeMiterLimit="80.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-arc-height: 10; -fx-arc-width: 15;" width="342.0" />
+                  <Rectangle fx:id="ktkMulaiDariSini" arcHeight="5.0" arcWidth="5.0" fill="#0df882" height="99.0" layoutX="272.0" layoutY="522.0" stroke="BLACK" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeMiterLimit="80.0" strokeType="OUTSIDE" strokeWidth="2.0" style="-fx-arc-height: 10; -fx-arc-width: 15;" width="342.0" />
+                  <ScrollPane layoutX="1306.0" layoutY="739.0" prefHeight="167.0" prefWidth="517.0">
+                    <content>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="200.0" prefWidth="200.0">
+                           <effect>
+                              <DropShadow offsetX="10.0" offsetY="10.0" />
+                           </effect>
+                        </AnchorPane>
+                    </content>
+                  </ScrollPane>
+                  <Rectangle fx:id="rectangleMateriDasar" arcHeight="5.0" arcWidth="5.0" fill="#2cfffb" height="311.0" layoutX="177.0" layoutY="1239.0" stroke="BLACK" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeMiterLimit="80.0" strokeType="OUTSIDE" strokeWidth="2.0" style="-fx-arc-height: 10; -fx-arc-width: 15;" width="716.0">
+                     <effect>
+                        <DropShadow color="#575757" height="6.675" offsetX="8.0" offsetY="8.0" radius="1.16875" width="0.0" />
+                     </effect>
+                  </Rectangle>
+                  <Label alignment="TOP_CENTER" blendMode="SRC_ATOP" ellipsisString="" layoutX="336.0" layoutY="555.0" prefHeight="37.0" prefWidth="212.0" text="Mulai dari sini!" textOverrun="WORD_ELLIPSIS">
+                     <font>
+                        <Font name="Century Gothic Bold" size="29.0" />
+                     </font>
+                  </Label>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="88.0" layoutX="1387.0" layoutY="160.0" rotate="96.6" stroke="BLACK" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeMiterLimit="80.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-arc-height: 10; -fx-arc-width: 15;" width="85.0">
+                     <effect>
+                        <DropShadow color="#575757" height="3.34" offsetX="5.0" offsetY="-7.0" radius="0.33499999999999996" width="0.0" />
+                     </effect>
+                  </Rectangle>
+                  <ImageView fitHeight="81.0" fitWidth="75.0" layoutX="1395.0" layoutY="166.0" pickOnBounds="true" preserveRatio="true" rotate="6.5">
+                     <image>
+                        <Image url="@../IMAGES/IconPresentation.png" />
+                     </image>
+                  </ImageView>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="88.0" layoutX="1765.0" layoutY="614.0" rotate="14.0" stroke="BLACK" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeMiterLimit="80.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-arc-height: 10; -fx-arc-width: 15;" width="85.0">
+                     <effect>
+                        <DropShadow color="#575757" height="3.34" offsetX="5.0" offsetY="-7.0" radius="0.33499999999999996" width="0.0" />
+                     </effect>
+                  </Rectangle>
+                  <ImageView fitHeight="81.0" fitWidth="75.0" layoutX="1773.0" layoutY="620.0" pickOnBounds="true" preserveRatio="true" rotate="14.0">
+                     <image>
+                        <Image url="@../IMAGES/IconBooks.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="99.0" fitWidth="106.0" layoutX="187.0" layoutY="1247.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../IMAGES/roman.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="TOP_CENTER" blendMode="SRC_ATOP" ellipsisString="" layoutX="255.0" layoutY="1265.0" prefHeight="63.0" prefWidth="386.0" text="Materi Dasar" textOverrun="WORD_ELLIPSIS">
+                     <font>
+                        <Font name="Century Gothic Bold" size="48.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="TOP_CENTER" blendMode="SRC_ATOP" ellipsisString="" layoutX="109.0" layoutY="1360.0" prefHeight="77.0" prefWidth="692.0" text="Kami sarankan memilih dari materi dasar " textOverrun="WORD_ELLIPSIS">
+                     <font>
+                        <Font name="Century" size="22.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="TOP_CENTER" blendMode="SRC_ATOP" ellipsisString="" layoutX="96.0" layoutY="1403.0" prefHeight="77.0" prefWidth="692.0" text="Isi : Fundamen bisnis, Digitalisasi pasar" textOverrun="WORD_ELLIPSIS" underline="true">
+                     <font>
+                        <Font name="Century" size="22.0" />
+                     </font>
+                  </Label>
+                  <Group layoutX="921.0" layoutY="1241.0">
+                     <children>
+                        <Rectangle fx:id="rectangleMateriMenengah" arcHeight="5.0" arcWidth="5.0" fill="#6fff55" height="311.0" layoutX="51.0" stroke="BLACK" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeMiterLimit="80.0" strokeType="OUTSIDE" strokeWidth="2.0" style="-fx-arc-height: 10; -fx-arc-width: 15;" width="716.0">
+                           <effect>
+                              <DropShadow color="#575757" height="13.35" offsetX="8.0" offsetY="8.0" radius="2.8375" width="0.0" />
+                           </effect>
+                        </Rectangle>
+                        <ImageView fitHeight="99.0" fitWidth="106.0" layoutX="60.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../IMAGES/two.png" />
+                           </image>
+                        </ImageView>
+                        <Label alignment="TOP_CENTER" blendMode="SRC_ATOP" ellipsisString="" layoutX="165.0" layoutY="25.0" prefHeight="63.0" prefWidth="440.0" text="Materi Menengah" textOverrun="WORD_ELLIPSIS">
+                           <font>
+                              <Font name="Century Gothic Bold" size="48.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="TOP_CENTER" blendMode="SRC_ATOP" ellipsisString="" layoutY="118.0" prefHeight="60.0" prefWidth="771.0" text="Pilih paket ini jika sebelumnya sudah pernah memiliki" textOverrun="WORD_ELLIPSIS">
+                           <font>
+                              <Font name="Century" size="22.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="TOP_CENTER" blendMode="SRC_ATOP" ellipsisString="" layoutX="93.0" layoutY="188.0" prefHeight="60.0" prefWidth="576.0" text="Isi: Tips dan trik memikat konsumen pada era digital," textOverrun="WORD_ELLIPSIS" underline="true">
+                           <font>
+                              <Font name="Century" size="22.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="TOP_CENTER" blendMode="SRC_ATOP" ellipsisString="" layoutX="36.0" layoutY="218.0" prefHeight="60.0" prefWidth="576.0" text="Teknologi untuk mempermudah akuntansi" textOverrun="WORD_ELLIPSIS" underline="true">
+                           <font>
+                              <Font name="Century" size="22.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="TOP_CENTER" blendMode="SRC_ATOP" ellipsisString="" layoutX="25.0" layoutY="150.0" prefHeight="60.0" prefWidth="458.0" text="pengalaman berniaga online" textOverrun="WORD_ELLIPSIS">
+                           <font>
+                              <Font name="Century" size="22.0" />
+                           </font>
+                        </Label>
+                        <Button fx:id="tombolMateriMenengah" layoutX="58.0" layoutY="4.0" mnemonicParsing="false" opacity="0.0" prefHeight="303.0" prefWidth="704.0" text="tombolMateriDasar" />
+                     </children>
+                  </Group>
+                  <Group layoutX="514.0" layoutY="1641.0">
+                     <children>
+                        <Rectangle fx:id="rectangleMateriLanjut" arcHeight="5.0" arcWidth="5.0" fill="#ff8736" height="311.0" layoutX="58.0" stroke="BLACK" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeMiterLimit="80.0" strokeType="OUTSIDE" strokeWidth="2.0" style="-fx-arc-height: 10; -fx-arc-width: 15;" width="716.0">
+                           <effect>
+                              <DropShadow color="#575757" height="13.35" offsetX="8.0" offsetY="8.0" radius="2.8375" width="0.0" />
+                           </effect>
+                        </Rectangle>
+                        <Label alignment="TOP_CENTER" blendMode="SRC_ATOP" ellipsisString="" layoutX="134.0" layoutY="30.0" prefHeight="63.0" prefWidth="386.0" text="Materi Lanjut" textOverrun="WORD_ELLIPSIS">
+                           <font>
+                              <Font name="Century Gothic Bold" size="48.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="99.0" fitWidth="106.0" layoutX="66.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../IMAGES/three.png" />
+                           </image>
+                        </ImageView>
+                        <Label alignment="TOP_CENTER" blendMode="SRC_ATOP" ellipsisString="" layoutX="127.0" layoutY="108.0" prefHeight="60.0" prefWidth="386.0" text="Pilih paket ini jika sudah menguasai " textOverrun="WORD_ELLIPSIS">
+                           <font>
+                              <Font name="Century" size="22.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="TOP_CENTER" blendMode="SRC_ATOP" ellipsisString="" layoutX="115.0" layoutY="155.0" prefHeight="60.0" prefWidth="386.0" text="materi dasar dan materi menengah" textOverrun="WORD_ELLIPSIS">
+                           <font>
+                              <Font name="Century" size="22.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="TOP_CENTER" blendMode="SRC_ATOP" ellipsisString="" layoutX="101.0" layoutY="189.0" prefHeight="60.0" prefWidth="576.0" text="Isi: Menerapkan website sebagai wadah jual beli online" textOverrun="WORD_ELLIPSIS" underline="true">
+                           <font>
+                              <Font name="Century" size="22.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="TOP_CENTER" blendMode="SRC_ATOP" ellipsisString="" layoutY="219.0" prefHeight="60.0" prefWidth="576.0" text="Beretika dalam bisnis digital" textOverrun="WORD_ELLIPSIS" underline="true">
+                           <font>
+                              <Font name="Century" size="22.0" />
+                           </font>
+                        </Label>
+                        <Button fx:id="tombolMateriLanjut" layoutX="54.0" layoutY="1.0" mnemonicParsing="false" opacity="0.0" prefHeight="306.0" prefWidth="718.0" text="tombolMateriLanjut" />
+                     </children>
+                  </Group>
+                  <Label alignment="TOP_CENTER" blendMode="SRC_ATOP" ellipsisString="" layoutX="754.0" layoutY="1141.0" text="Paket Pelatihan" textOverrun="WORD_ELLIPSIS">
+                     <font>
+                        <Font name="Century Gothic Bold" size="48.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="tombolMateriDasar" layoutX="177.0" layoutY="1243.0" mnemonicParsing="false" onAction="#handleBeliMateriDasar" opacity="0.0" prefHeight="306.0" prefWidth="718.0" text="tombolMateriDasar" />
+                  <Button fx:id="tombolSertifikasi" layoutX="585.0" layoutY="37.0" mnemonicParsing="false" onAction="#handleSertifikasiAction" opacity="0.0" prefHeight="29.0" prefWidth="127.0" style="-fx-background-color: #ff2200;" text="Sertifikasi" textFill="WHITE">
+                     <font>
+                        <Font name="Century Gothic Bold" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="tombolChatBox" layoutX="1356.0" layoutY="37.0" mnemonicParsing="false" onAction="#handleChatboxAction" opacity="0.0" prefHeight="29.0" prefWidth="135.0" style="-fx-background-color: #ff2200;" text="Chatbox" textFill="WHITE">
+                     <font>
+                        <Font name="Century Gothic Bold" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="tombolMateriPelatihan" layoutX="784.0" layoutY="42.0" mnemonicParsing="false" onAction="#handleMateriPelatihanAction" opacity="0.0" prefHeight="29.0" prefWidth="235.0" style="-fx-background-color: #ff2200;" text="MateriPelatihan" textFill="WHITE">
+                     <font>
+                        <Font name="Century Gothic Bold" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="tombolKalenderInteraktif" layoutX="1061.0" layoutY="37.0" mnemonicParsing="false" onAction="#handleKalenderInteraktifAction" opacity="0.0" prefHeight="29.0" prefWidth="269.0" style="-fx-background-color: #ff2200;" text="KalenderInteraktif" textFill="WHITE">
+                     <font>
+                        <Font name="Century Gothic Bold" size="15.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="kelasVirtualButton" layoutX="1490.0" layoutY="100.0" mnemonicParsing="false" onAction="#handleKelasVirtualAction" prefHeight="56.0" prefWidth="215.0" style="-fx-background-color: #3362ff;" text="Kelas Virtual" textFill="WHITE">
+                     <font>
+                        <Font name="Century Gothic Bold" size="28.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="tombolMulaiDariSini" layoutX="273.0" layoutY="523.0" mnemonicParsing="false" onAction="#handleMulaiDariSiniAction" opacity="0.0" prefHeight="96.0" prefWidth="341.0" text="tombolMulaiDariSini" />
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>

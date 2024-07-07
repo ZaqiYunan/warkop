@@ -1,0 +1,733 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1402.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.warkop.KalenderInteraktifPageController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#53a0bc" height="748.0" layoutX="-44.0" layoutY="-8.0" stroke="BLACK" strokeType="INSIDE" width="1451.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#006e14" height="150.0" layoutX="-171.0" layoutY="-296.0" stroke="BLACK" strokeType="INSIDE" width="1750.0" />
+      <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#1aff8f" height="40.0" layoutX="23.0" layoutY="62.0" stroke="BLACK" strokeType="INSIDE" width="134.0" />
+      <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#1fe1cd" height="40.0" layoutX="200.0" layoutY="62.0" stroke="BLACK" strokeType="INSIDE" width="134.0" />
+      <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#bfff0e" height="40.0" layoutX="386.0" layoutY="62.0" stroke="BLACK" strokeType="INSIDE" width="134.0" />
+      <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#ffb61a" height="40.0" layoutX="565.0" layoutY="61.0" stroke="BLACK" strokeType="INSIDE" width="134.0" />
+      <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#ff863b" height="40.0" layoutX="744.0" layoutY="62.0" stroke="BLACK" strokeType="INSIDE" width="134.0" />
+      <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#5e81ff" height="40.0" layoutX="922.0" layoutY="61.0" stroke="BLACK" strokeType="INSIDE" width="134.0" />
+      <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#34d1b1" height="40.0" layoutX="1100.0" layoutY="62.0" stroke="BLACK" strokeType="INSIDE" width="134.0" />
+      <Text layoutX="36.0" layoutY="95.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Senin" wrappingWidth="119.958984375">
+         <font>
+            <Font name="Century Gothic" size="33.0" />
+         </font>
+      </Text>
+      <Rectangle fx:id="ktk1" arcHeight="5.0" arcWidth="5.0" fill="#85fff7" height="114.0" layoutX="22.0" layoutY="96.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="5.0" width="180.0" />
+      <Rectangle fx:id="ktk2" arcHeight="5.0" arcWidth="5.0" fill="#85fff7" height="114.0" layoutX="202.0" layoutY="96.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="5.0" width="180.0" />
+      <Rectangle fx:id="ktk3" arcHeight="5.0" arcWidth="5.0" fill="#85fff7" height="114.0" layoutX="382.0" layoutY="95.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="5.0" width="180.0" />
+      <Rectangle fx:id="ktk7" arcHeight="5.0" arcWidth="5.0" fill="#85fff7" height="114.0" layoutX="1096.0" layoutY="95.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="5.0" width="180.0" />
+      <Rectangle fx:id="ktk6" arcHeight="5.0" arcWidth="5.0" fill="#85fff7" height="114.0" layoutX="919.0" layoutY="95.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="5.0" width="180.0" />
+      <Rectangle fx:id="ktk5" arcHeight="5.0" arcWidth="5.0" fill="#85fff7" height="114.0" layoutX="740.0" layoutY="94.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="5.0" width="180.0" />
+      <Rectangle fx:id="ktk4" arcHeight="5.0" arcWidth="5.0" fill="#85fff7" height="114.0" layoutX="561.0" layoutY="94.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="5.0" width="180.0" />
+      <Rectangle fx:id="ktk8" arcHeight="5.0" arcWidth="5.0" fill="#85fff7" height="114.0" layoutX="22.0" layoutY="208.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="5.0" width="180.0" />
+      <Rectangle fx:id="ktk9" arcHeight="5.0" arcWidth="5.0" fill="#85fff7" height="114.0" layoutX="202.0" layoutY="208.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="5.0" width="180.0" />
+      <Rectangle fx:id="ktk10" arcHeight="5.0" arcWidth="5.0" fill="#85fff7" height="114.0" layoutX="381.0" layoutY="207.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="5.0" width="180.0" />
+      <Rectangle fx:id="ktk14" arcHeight="5.0" arcWidth="5.0" fill="#85fff7" height="114.0" layoutX="1096.0" layoutY="208.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="5.0" width="180.0" />
+      <Rectangle fx:id="ktk13" arcHeight="5.0" arcWidth="5.0" fill="#85fff7" height="114.0" layoutX="918.0" layoutY="208.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="5.0" width="180.0" />
+      <Rectangle fx:id="ktk12" arcHeight="5.0" arcWidth="5.0" fill="#85fff7" height="114.0" layoutX="739.0" layoutY="207.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="5.0" width="180.0" />
+      <Rectangle fx:id="ktk11" arcHeight="5.0" arcWidth="5.0" fill="#85fff7" height="114.0" layoutX="560.0" layoutY="208.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="5.0" width="180.0" />
+      <Rectangle fx:id="ktk15" arcHeight="5.0" arcWidth="5.0" fill="#85fff7" height="114.0" layoutX="22.0" layoutY="321.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="5.0" width="180.0" />
+      <Rectangle fx:id="ktk16" arcHeight="5.0" arcWidth="5.0" fill="#85fff7" height="114.0" layoutX="202.0" layoutY="321.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="5.0" width="180.0" />
+      <Rectangle fx:id="ktk17" arcHeight="5.0" arcWidth="5.0" fill="#85fff7" height="114.0" layoutX="381.0" layoutY="321.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="5.0" width="180.0" />
+      <Rectangle fx:id="ktk21" arcHeight="5.0" arcWidth="5.0" fill="#85fff7" height="114.0" layoutX="1095.0" layoutY="321.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="5.0" width="180.0" />
+      <Rectangle fx:id="ktk20" arcHeight="5.0" arcWidth="5.0" fill="#85fff7" height="114.0" layoutX="916.0" layoutY="321.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="5.0" width="180.0" />
+      <Rectangle fx:id="ktk19" arcHeight="5.0" arcWidth="5.0" fill="#85fff7" height="114.0" layoutX="738.0" layoutY="320.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="5.0" width="180.0" />
+      <Rectangle fx:id="ktk18" arcHeight="5.0" arcWidth="5.0" fill="#85fff7" height="114.0" layoutX="560.0" layoutY="320.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="5.0" width="180.0" />
+      <Rectangle fx:id="ktk22" arcHeight="5.0" arcWidth="5.0" fill="#85fff7" height="114.0" layoutX="22.0" layoutY="434.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="5.0" width="180.0" />
+      <Rectangle fx:id="ktk23" arcHeight="5.0" arcWidth="5.0" fill="#85fff7" height="114.0" layoutX="202.0" layoutY="434.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="5.0" width="180.0" />
+      <Rectangle fx:id="ktk24" arcHeight="5.0" arcWidth="5.0" fill="#85fff7" height="114.0" layoutX="380.0" layoutY="434.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="5.0" width="180.0" />
+      <Rectangle fx:id="ktk28" arcHeight="5.0" arcWidth="5.0" fill="#85fff7" height="114.0" layoutX="1094.0" layoutY="434.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="5.0" width="180.0" />
+      <Rectangle fx:id="ktk27" arcHeight="5.0" arcWidth="5.0" fill="#85fff7" height="114.0" layoutX="916.0" layoutY="434.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="5.0" width="180.0" />
+      <Rectangle fx:id="ktk27" arcHeight="5.0" arcWidth="5.0" fill="#85fff7" height="114.0" layoutX="738.0" layoutY="434.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="5.0" width="180.0" />
+      <Rectangle fx:id="ktk25" arcHeight="5.0" arcWidth="5.0" fill="#85fff7" height="114.0" layoutX="559.0" layoutY="434.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="5.0" width="180.0" />
+      <Rectangle fx:id="ktk29" arcHeight="5.0" arcWidth="5.0" fill="#85fff7" height="114.0" layoutX="23.0" layoutY="546.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="5.0" width="180.0" />
+      <Rectangle fx:id="ktk30" arcHeight="5.0" arcWidth="5.0" fill="#85fff7" height="114.0" layoutX="203.0" layoutY="546.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="5.0" width="180.0" />
+      <Rectangle fx:id="ktk31" arcHeight="5.0" arcWidth="5.0" fill="#85fff7" height="114.0" layoutX="381.0" layoutY="546.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="5.0" width="180.0" />
+      <Text layoutX="27.0" layoutY="138.0" strokeType="OUTSIDE" strokeWidth="0.0" text="01" wrappingWidth="65.33673095703125">
+         <font>
+            <Font name="Century Gothic Bold Italic" size="41.0" />
+         </font>
+      </Text>
+      <Text layoutX="208.0" layoutY="134.0" strokeType="OUTSIDE" strokeWidth="0.0" text="02" wrappingWidth="65.33673095703125">
+         <font>
+            <Font name="Century Gothic Bold Italic" size="41.0" />
+         </font>
+      </Text>
+      <Text layoutX="388.0" layoutY="134.0" strokeType="OUTSIDE" strokeWidth="0.0" text="03" wrappingWidth="65.33673095703125">
+         <font>
+            <Font name="Century Gothic Bold Italic" size="41.0" />
+         </font>
+      </Text>
+      <Text layoutX="566.0" layoutY="137.0" strokeType="OUTSIDE" strokeWidth="0.0" text="04" wrappingWidth="65.33673095703125">
+         <font>
+            <Font name="Century Gothic Bold Italic" size="41.0" />
+         </font>
+      </Text>
+      <Text layoutX="744.0" layoutY="134.0" strokeType="OUTSIDE" strokeWidth="0.0" text="05" wrappingWidth="65.33673095703125">
+         <font>
+            <Font name="Century Gothic Bold Italic" size="41.0" />
+         </font>
+      </Text>
+      <Text layoutX="924.0" layoutY="132.0" strokeType="OUTSIDE" strokeWidth="0.0" text="06" wrappingWidth="65.33673095703125">
+         <font>
+            <Font name="Century Gothic Bold Italic" size="41.0" />
+         </font>
+      </Text>
+      <Text layoutX="1101.0" layoutY="133.0" strokeType="OUTSIDE" strokeWidth="0.0" text="07" wrappingWidth="65.33673095703125">
+         <font>
+            <Font name="Century Gothic Bold Italic" size="41.0" />
+         </font>
+      </Text>
+      <Text layoutX="388.0" layoutY="251.0" strokeType="OUTSIDE" strokeWidth="0.0" text="10" wrappingWidth="65.33673095703125">
+         <font>
+            <Font name="Century Gothic Bold Italic" size="41.0" />
+         </font>
+      </Text>
+      <Text layoutX="208.0" layoutY="250.0" strokeType="OUTSIDE" strokeWidth="0.0" text="09" wrappingWidth="65.33673095703125">
+         <font>
+            <Font name="Century Gothic Bold Italic" size="41.0" />
+         </font>
+      </Text>
+      <Text layoutX="27.0" layoutY="250.0" strokeType="OUTSIDE" strokeWidth="0.0" text="08" wrappingWidth="65.33673095703125">
+         <font>
+            <Font name="Century Gothic Bold Italic" size="41.0" />
+         </font>
+      </Text>
+      <Text layoutX="566.0" layoutY="250.0" strokeType="OUTSIDE" strokeWidth="0.0" text="11" wrappingWidth="65.33673095703125">
+         <font>
+            <Font name="Century Gothic Bold Italic" size="41.0" />
+         </font>
+      </Text>
+      <Text layoutX="741.0" layoutY="249.0" strokeType="OUTSIDE" strokeWidth="0.0" text="12" wrappingWidth="65.33673095703125">
+         <font>
+            <Font name="Century Gothic Bold Italic" size="41.0" />
+         </font>
+      </Text>
+      <Text layoutX="921.0" layoutY="250.0" strokeType="OUTSIDE" strokeWidth="0.0" text="13" wrappingWidth="65.33673095703125">
+         <font>
+            <Font name="Century Gothic Bold Italic" size="41.0" />
+         </font>
+      </Text>
+      <Text layoutX="1098.0" layoutY="246.0" strokeType="OUTSIDE" strokeWidth="0.0" text="14" wrappingWidth="65.33673095703125">
+         <font>
+            <Font name="Century Gothic Bold Italic" size="41.0" />
+         </font>
+      </Text>
+      <Text layoutX="25.0" layoutY="362.0" strokeType="OUTSIDE" strokeWidth="0.0" text="15" wrappingWidth="65.33673095703125">
+         <font>
+            <Font name="Century Gothic Bold Italic" size="41.0" />
+         </font>
+      </Text>
+      <Text layoutX="207.0" layoutY="361.0" strokeType="OUTSIDE" strokeWidth="0.0" text="16" wrappingWidth="65.33673095703125">
+         <font>
+            <Font name="Century Gothic Bold Italic" size="41.0" />
+         </font>
+      </Text>
+      <Text layoutX="385.0" layoutY="362.0" strokeType="OUTSIDE" strokeWidth="0.0" text="17" wrappingWidth="65.33673095703125">
+         <font>
+            <Font name="Century Gothic Bold Italic" size="41.0" />
+         </font>
+      </Text>
+      <Text layoutX="564.0" layoutY="361.0" strokeType="OUTSIDE" strokeWidth="0.0" text="18" wrappingWidth="65.33673095703125">
+         <font>
+            <Font name="Century Gothic Bold Italic" size="41.0" />
+         </font>
+      </Text>
+      <Text layoutX="741.0" layoutY="363.0" strokeType="OUTSIDE" strokeWidth="0.0" text="19" wrappingWidth="65.33673095703125">
+         <font>
+            <Font name="Century Gothic Bold Italic" size="41.0" />
+         </font>
+      </Text>
+      <Text layoutX="922.0" layoutY="360.0" strokeType="OUTSIDE" strokeWidth="0.0" text="20" wrappingWidth="65.33673095703125">
+         <font>
+            <Font name="Century Gothic Bold Italic" size="41.0" />
+         </font>
+      </Text>
+      <Text layoutX="1101.0" layoutY="361.0" strokeType="OUTSIDE" strokeWidth="0.0" text="21" wrappingWidth="65.33673095703125">
+         <font>
+            <Font name="Century Gothic Bold Italic" size="41.0" />
+         </font>
+      </Text>
+      <Text layoutX="28.0" layoutY="475.0" strokeType="OUTSIDE" strokeWidth="0.0" text="22" wrappingWidth="65.33673095703125">
+         <font>
+            <Font name="Century Gothic Bold Italic" size="41.0" />
+         </font>
+      </Text>
+      <Text layoutX="209.0" layoutY="475.0" strokeType="OUTSIDE" strokeWidth="0.0" text="23" wrappingWidth="65.33673095703125">
+         <font>
+            <Font name="Century Gothic Bold Italic" size="41.0" />
+         </font>
+      </Text>
+      <Text layoutX="388.0" layoutY="474.0" strokeType="OUTSIDE" strokeWidth="0.0" text="24" wrappingWidth="65.33673095703125">
+         <font>
+            <Font name="Century Gothic Bold Italic" size="41.0" />
+         </font>
+      </Text>
+      <Text layoutX="566.0" layoutY="473.0" strokeType="OUTSIDE" strokeWidth="0.0" text="25" wrappingWidth="65.33673095703125">
+         <font>
+            <Font name="Century Gothic Bold Italic" size="41.0" />
+         </font>
+      </Text>
+      <Text layoutX="743.0" layoutY="474.0" strokeType="OUTSIDE" strokeWidth="0.0" text="26" wrappingWidth="65.33673095703125">
+         <font>
+            <Font name="Century Gothic Bold Italic" size="41.0" />
+         </font>
+      </Text>
+      <Text layoutX="921.0" layoutY="473.0" strokeType="OUTSIDE" strokeWidth="0.0" text="27" wrappingWidth="65.33673095703125">
+         <font>
+            <Font name="Century Gothic Bold Italic" size="41.0" />
+         </font>
+      </Text>
+      <Text layoutX="1099.0" layoutY="473.0" strokeType="OUTSIDE" strokeWidth="0.0" text="28" wrappingWidth="65.33673095703125">
+         <font>
+            <Font name="Century Gothic Bold Italic" size="41.0" />
+         </font>
+      </Text>
+      <Text layoutX="28.0" layoutY="590.0" strokeType="OUTSIDE" strokeWidth="0.0" text="29" wrappingWidth="65.33673095703125">
+         <font>
+            <Font name="Century Gothic Bold Italic" size="41.0" />
+         </font>
+      </Text>
+      <Text layoutX="209.0" layoutY="589.0" strokeType="OUTSIDE" strokeWidth="0.0" text="30" wrappingWidth="65.33673095703125">
+         <font>
+            <Font name="Century Gothic Bold Italic" size="41.0" />
+         </font>
+      </Text>
+      <Text layoutX="387.0" layoutY="589.0" strokeType="OUTSIDE" strokeWidth="0.0" text="31" wrappingWidth="65.33673095703125">
+         <font>
+            <Font name="Century Gothic Bold Italic" size="41.0" />
+         </font>
+      </Text>
+      <Text layoutX="207.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Selasa" wrappingWidth="119.958984375">
+         <font>
+            <Font name="Century Gothic" size="33.0" />
+         </font>
+      </Text>
+      <Text layoutX="392.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Rabu" wrappingWidth="119.958984375">
+         <font>
+            <Font name="Century Gothic" size="33.0" />
+         </font>
+      </Text>
+      <Text layoutX="569.0" layoutY="93.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kamis" wrappingWidth="119.958984375">
+         <font>
+            <Font name="Century Gothic" size="33.0" />
+         </font>
+      </Text>
+      <Text layoutX="750.0" layoutY="93.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Jumat" wrappingWidth="119.958984375">
+         <font>
+            <Font name="Century Gothic" size="33.0" />
+         </font>
+      </Text>
+      <Text layoutX="929.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sabtu" wrappingWidth="119.958984375">
+         <font>
+            <Font name="Century Gothic" size="33.0" />
+         </font>
+      </Text>
+      <Text layoutX="1104.0" layoutY="91.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Minggu" wrappingWidth="126.958984375">
+         <font>
+            <Font name="Century Gothic" size="33.0" />
+         </font>
+      </Text>
+      <Group layoutX="152.0" layoutY="100.0">
+         <children>
+            <Group>
+               <children>
+                  <ImageView fx:id="r1" fitHeight="38.0" fitWidth="38.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/roman.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="r2" fitHeight="38.0" fitWidth="38.0" layoutX="184.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/roman.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="r3" fitHeight="38.0" fitWidth="38.0" layoutX="365.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/roman.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="r4" fitHeight="38.0" fitWidth="38.0" layoutX="539.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/roman.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="r5" fitHeight="38.0" fitWidth="38.0" layoutX="717.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/roman.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="r6" fitHeight="38.0" fitWidth="38.0" layoutX="897.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/roman.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="r7" fitHeight="38.0" fitWidth="38.0" layoutX="1077.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/roman.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="r8" fitHeight="38.0" fitWidth="38.0" layoutY="116.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/roman.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="r15" fitHeight="38.0" fitWidth="38.0" layoutY="228.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/roman.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="r22" fitHeight="38.0" fitWidth="38.0" layoutY="340.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/roman.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="r29" fitHeight="38.0" fitWidth="38.0" layoutY="455.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/roman.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="r9" fitHeight="38.0" fitWidth="38.0" layoutX="184.0" layoutY="114.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/roman.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="r16" fitHeight="38.0" fitWidth="38.0" layoutX="184.0" layoutY="227.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/roman.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="r23" fitHeight="38.0" fitWidth="38.0" layoutX="184.0" layoutY="342.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/roman.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="r30" fitHeight="38.0" fitWidth="38.0" layoutX="184.0" layoutY="455.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/roman.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="r10" fitHeight="38.0" fitWidth="38.0" layoutX="365.0" layoutY="111.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/roman.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="r17" fitHeight="38.0" fitWidth="38.0" layoutX="365.0" layoutY="228.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/roman.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="r24" fitHeight="38.0" fitWidth="38.0" layoutX="365.0" layoutY="342.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/roman.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="r31" fitHeight="38.0" fitWidth="38.0" layoutX="365.0" layoutY="452.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/roman.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="r11" fitHeight="38.0" fitWidth="38.0" layoutX="539.0" layoutY="114.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/roman.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="r18" fitHeight="38.0" fitWidth="38.0" layoutX="539.0" layoutY="226.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/roman.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="r25" fitHeight="38.0" fitWidth="38.0" layoutX="539.0" layoutY="342.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/roman.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="r12" fitHeight="38.0" fitWidth="38.0" layoutX="717.0" layoutY="116.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/roman.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="r19" fitHeight="38.0" fitWidth="38.0" layoutX="717.0" layoutY="228.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/roman.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="r26" fitHeight="38.0" fitWidth="38.0" layoutX="717.0" layoutY="342.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/roman.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="r13" fitHeight="38.0" fitWidth="38.0" layoutX="897.0" layoutY="116.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/roman.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="r20" fitHeight="38.0" fitWidth="38.0" layoutX="897.0" layoutY="228.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/roman.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="r27" fitHeight="38.0" fitWidth="38.0" layoutX="897.0" layoutY="340.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/roman.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="r14" fitHeight="38.0" fitWidth="38.0" layoutX="1077.0" layoutY="116.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/roman.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="r21" fitHeight="38.0" fitWidth="38.0" layoutX="1077.0" layoutY="228.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/roman.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="r28" fitHeight="38.0" fitWidth="38.0" layoutX="1077.0" layoutY="342.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/roman.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="rr13" fitHeight="38.0" fitWidth="38.0" layoutX="897.0" layoutY="115.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/two.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="rr9" fitHeight="38.0" fitWidth="38.0" layoutX="184.0" layoutY="115.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/two.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="rr10" fitHeight="38.0" fitWidth="38.0" layoutX="365.0" layoutY="112.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/two.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="rr11" fitHeight="38.0" fitWidth="38.0" layoutX="539.0" layoutY="113.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/two.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="rr12" fitHeight="38.0" fitWidth="38.0" layoutX="717.0" layoutY="115.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/two.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="rr8" fitHeight="38.0" fitWidth="38.0" layoutY="115.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/two.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="rr14" fitHeight="38.0" fitWidth="38.0" layoutX="1077.0" layoutY="115.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/two.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="rr20" fitHeight="38.0" fitWidth="38.0" layoutX="897.0" layoutY="228.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/two.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="rr16" fitHeight="38.0" fitWidth="38.0" layoutX="184.0" layoutY="228.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/two.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="rr17" fitHeight="38.0" fitWidth="38.0" layoutX="365.0" layoutY="227.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/two.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="rr18" fitHeight="38.0" fitWidth="38.0" layoutX="539.0" layoutY="225.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/two.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="rr19" fitHeight="38.0" fitWidth="38.0" layoutX="717.0" layoutY="228.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/two.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="rr15" fitHeight="38.0" fitWidth="38.0" layoutY="228.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/two.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="rr21" fitHeight="38.0" fitWidth="38.0" layoutX="1077.0" layoutY="227.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/two.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="rr27" fitHeight="38.0" fitWidth="38.0" layoutX="897.0" layoutY="341.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/two.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="rr23" fitHeight="38.0" fitWidth="38.0" layoutX="184.0" layoutY="341.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/two.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="rr24" fitHeight="38.0" fitWidth="38.0" layoutX="365.0" layoutY="341.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/two.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="rr25" fitHeight="38.0" fitWidth="38.0" layoutX="539.0" layoutY="340.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/two.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="rr26" fitHeight="38.0" fitWidth="38.0" layoutX="717.0" layoutY="341.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/two.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="rr22" fitHeight="38.0" fitWidth="38.0" layoutY="341.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/two.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="rr28" fitHeight="38.0" fitWidth="38.0" layoutX="1077.0" layoutY="341.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/two.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="rr30" fitHeight="38.0" fitWidth="38.0" layoutX="184.0" layoutY="456.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/two.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="rr31" fitHeight="38.0" fitWidth="38.0" layoutX="365.0" layoutY="453.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/two.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="rr29" fitHeight="38.0" fitWidth="38.0" layoutY="456.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/two.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="rr6" fitHeight="38.0" fitWidth="38.0" layoutX="897.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/two.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="rr2" fitHeight="38.0" fitWidth="38.0" layoutX="184.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/two.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="rr3" fitHeight="38.0" fitWidth="38.0" layoutX="365.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/two.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="rr4" fitHeight="38.0" fitWidth="38.0" layoutX="539.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/two.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="rr5" fitHeight="38.0" fitWidth="38.0" layoutX="717.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/two.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="rr1" fitHeight="38.0" fitWidth="38.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/two.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="rr7" fitHeight="38.0" fitWidth="38.0" layoutX="1077.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/two.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Group>
+            <Group layoutX="-1.0">
+               <children>
+                  <ImageView fx:id="rrr1" fitHeight="38.0" fitWidth="38.0" layoutX="1.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/three.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="rrr2" fitHeight="38.0" fitWidth="38.0" layoutX="185.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/three.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="rrr3" fitHeight="38.0" fitWidth="38.0" layoutX="366.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/three.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="rrr4" fitHeight="38.0" fitWidth="38.0" layoutX="540.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/three.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="rrr5" fitHeight="38.0" fitWidth="38.0" layoutX="718.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/three.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="rrr6" fitHeight="38.0" fitWidth="38.0" layoutX="898.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/three.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="rrr7" fitHeight="38.0" fitWidth="38.0" layoutX="1078.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/three.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="rrr8" fitHeight="38.0" fitWidth="38.0" layoutX="1.0" layoutY="116.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/three.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="rrr9" fitHeight="38.0" fitWidth="38.0" layoutX="185.0" layoutY="115.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/three.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="rrr10" fitHeight="38.0" fitWidth="38.0" layoutX="366.0" layoutY="114.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/three.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="rrr11" fitHeight="38.0" fitWidth="38.0" layoutX="540.0" layoutY="113.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/three.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="rrr12" fitHeight="38.0" fitWidth="38.0" layoutX="718.0" layoutY="117.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/three.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="rrr13" fitHeight="38.0" fitWidth="38.0" layoutX="898.0" layoutY="117.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/three.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="rrr14" fitHeight="38.0" fitWidth="38.0" layoutX="1078.0" layoutY="115.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/three.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="rrr15" fitHeight="38.0" fitWidth="38.0" layoutX="2.0" layoutY="229.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/three.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="rrr16" fitHeight="38.0" fitWidth="38.0" layoutX="186.0" layoutY="228.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/three.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="rrr17" fitHeight="38.0" fitWidth="38.0" layoutX="367.0" layoutY="227.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/three.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="rrr18" fitHeight="38.0" fitWidth="38.0" layoutX="541.0" layoutY="226.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/three.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="rrr19" fitHeight="38.0" fitWidth="38.0" layoutX="719.0" layoutY="230.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/three.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="rrr20" fitHeight="38.0" fitWidth="38.0" layoutX="899.0" layoutY="230.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/three.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="rrr21" fitHeight="38.0" fitWidth="38.0" layoutX="1079.0" layoutY="228.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/three.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="rrr22" fitHeight="38.0" fitWidth="38.0" layoutY="341.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/three.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="rrr23" fitHeight="38.0" fitWidth="38.0" layoutX="184.0" layoutY="340.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/three.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="rrr24" fitHeight="38.0" fitWidth="38.0" layoutX="365.0" layoutY="339.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/three.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="rrr25" fitHeight="38.0" fitWidth="38.0" layoutX="539.0" layoutY="338.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/three.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="rrr26" fitHeight="38.0" fitWidth="38.0" layoutX="717.0" layoutY="342.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/three.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="rrr27" fitHeight="38.0" fitWidth="38.0" layoutX="897.0" layoutY="342.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/three.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="rrr28" fitHeight="38.0" fitWidth="38.0" layoutX="1077.0" layoutY="340.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/three.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="rrr29" fitHeight="38.0" fitWidth="38.0" layoutX="2.0" layoutY="456.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/three.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="rrr30" fitHeight="38.0" fitWidth="38.0" layoutX="185.0" layoutY="456.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/three.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="rrr31" fitHeight="38.0" fitWidth="38.0" layoutX="367.0" layoutY="453.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../IMAGES/three.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Group>
+         </children>
+      </Group>
+      <Button fx:id="b1" layoutX="26.0" layoutY="100.0" mnemonicParsing="false" onAction="#handleButtonClick" opacity="0.0" prefHeight="107.0" prefWidth="170.0" text="b1" />
+      <Button fx:id="b2" layoutX="207.0" layoutY="100.0" mnemonicParsing="false" onAction="#handleButtonClick" onMouseClicked="#handleButtonClick" opacity="0.0" prefHeight="107.0" prefWidth="170.0" text="b2" />
+      <Button fx:id="b3" layoutX="386.0" layoutY="100.0" mnemonicParsing="false" onAction="#handleButtonClick" onMouseClicked="#handleButtonClick" opacity="0.0" prefHeight="107.0" prefWidth="170.0" text="b3" />
+      <Button fx:id="b4" layoutX="566.0" layoutY="100.0" mnemonicParsing="false" onAction="#handleButtonClick" onMouseClicked="#handleButtonClick" opacity="0.0" prefHeight="107.0" prefWidth="170.0" text="b4" />
+      <Button fx:id="b5" layoutX="745.0" layoutY="100.0" mnemonicParsing="false" onAction="#handleButtonClick" onMouseClicked="#handleButtonClick" opacity="0.0" prefHeight="107.0" prefWidth="170.0" text="b5" />
+      <Button fx:id="b6" layoutX="923.0" layoutY="100.0" mnemonicParsing="false" onAction="#handleButtonClick" onMouseClicked="#handleButtonClick" opacity="0.0" prefHeight="107.0" prefWidth="170.0" text="b6" />
+      <Button fx:id="b7" layoutX="1100.0" layoutY="100.0" mnemonicParsing="false" onAction="#handleButtonClick" onMouseClicked="#handleButtonClick" opacity="0.0" prefHeight="107.0" prefWidth="170.0" text="b7" />
+      
+      <Button layoutX="744.0" layoutY="438.0" mnemonicParsing="false" opacity="0.0" prefHeight="107.0" prefWidth="170.0" text="b26" />
+   
+      <Button layoutX="387.0" layoutY="550.0" mnemonicParsing="false" opacity="0.0" prefHeight="107.0" prefWidth="170.0" text="b31" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.effect.GaussianBlur?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="loginPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.warkop.LoginPageController">
+   <children>
+      <Group>
+         <children>
+            <ImageView fitHeight="1084.0" fitWidth="1927.0" layoutX="4.75" layoutY="4.75">
+               <image>
+                  <Image url="@../IMAGES/TexturedBg.png" />
+               </image>
+               <effect>
+                  <GaussianBlur radius="4.75" />
+               </effect>
+            </ImageView>
+            <ImageView fitHeight="92.0" fitWidth="383.0" layoutX="96.75" layoutY="32.75">
+               <image>
+                  <Image url="@../IMAGES/WarkopLogo3.png" />
+               </image>
+            </ImageView>
+            <Group layoutX="1095.75" layoutY="40.75" />
+            <Label alignment="TOP_CENTER" blendMode="SRC_ATOP" ellipsisString="" layoutX="1389.75" layoutY="59.75" text="Tidak punya akun?" textFill="WHITE" textOverrun="WORD_ELLIPSIS">
+               <font>
+                  <Font name="Century" size="22.0" />
+               </font>
+            </Label>
+            <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="678.0" layoutX="666.75" layoutY="232.75" stroke="WHITE" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="OUTSIDE" strokeWidth="0.0" width="646.0" />
+            <Button fx:id="tombolMasuk" layoutX="726.75" layoutY="788.75" mnemonicParsing="false" onAction="#handleSignInButtonAction" prefHeight="69.0" prefWidth="502.0" style="-fx-background-color: black;" text="Masuk" textFill="WHITE">
+               <font>
+                  <Font name="Century Gothic Bold" size="33.0" />
+               </font>
+            </Button>
+            <Label alignment="TOP_CENTER" blendMode="SRC_ATOP" ellipsisString="" layoutX="695.75" layoutY="272.75" prefHeight="42.0" prefWidth="160.0" text="Masuk" textOverrun="WORD_ELLIPSIS">
+               <font>
+                  <Font name="Century Gothic Bold" size="40.0" />
+               </font>
+            </Label>
+            <Label alignment="TOP_CENTER" blendMode="SRC_ATOP" ellipsisString="" layoutX="723.75" layoutY="498.75" text="Password" textOverrun="WORD_ELLIPSIS">
+               <font>
+                  <Font name="Century Gothic" size="26.0" />
+               </font>
+            </Label>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="49.0" layoutX="726.75" layoutY="547.75" stroke="BLACK" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="OUTSIDE" width="491.0">
+               <fill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="#d8efd3" />
+                        <Stop color="#005b66" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Rectangle>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="49.0" layoutX="726.75" layoutY="409.75" stroke="BLACK" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="OUTSIDE" width="491.0">
+               <fill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="#d8efd3" />
+                        <Stop color="#005b66" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Rectangle>
+            <TextField fx:id="inputEmail" layoutX="736.75" layoutY="416.75" prefHeight="38.0" prefWidth="475.0" promptText="Masukkan email" style="-fx-background-color: fffff;">
+               <effect>
+                  <ColorAdjust brightness="-0.43" contrast="-1.0" saturation="-1.0" />
+               </effect>
+               <font>
+                  <Font name="Century Gothic Bold" size="19.0" />
+               </font>
+            </TextField>
+            <Label alignment="TOP_CENTER" blendMode="SRC_ATOP" ellipsisString="" layoutX="726.75" layoutY="362.75" text="Email" textOverrun="WORD_ELLIPSIS">
+               <font>
+                  <Font name="Century Gothic" size="26.0" />
+               </font>
+            </Label>
+            <PasswordField fx:id="inputPassword" layoutX="739.75" layoutY="552.75" prefHeight="38.0" prefWidth="471.0" promptText="Masukkan password" style="-fx-background-color: fffff;">
+               <font>
+                  <Font name="Century Gothic Bold" size="19.0" />
+               </font>
+               <effect>
+                  <ColorAdjust brightness="-0.43" contrast="-0.1" saturation="-1.0" />
+               </effect>
+            </PasswordField>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="42.0" layoutX="759.75" layoutY="637.75" stroke="BLACK" strokeLineCap="ROUND" strokeLineJoin="ROUND" strokeType="OUTSIDE" strokeWidth="0.0" width="175.0" />
+            <Label fx:id="labelCaptcha" alignment="TOP_CENTER" blendMode="SRC_ATOP" ellipsisString="" layoutX="798.75" layoutY="644.75" prefHeight="25.0" prefWidth="101.0" text="Captcha" textFill="WHITE" textOverrun="WORD_ELLIPSIS">
+               <font>
+                  <Font name="Century Gothic Bold" size="22.0" />
+               </font>
+            </Label>
+            <CheckBox fx:id="tombolCaptcha" layoutX="723.75" layoutY="639.75" mnemonicParsing="false" onAction="#handlelabelCaptchaAction" prefHeight="34.0" prefWidth="59.0" textFill="WHITE" />
+            <Button fx:id="tombolRegistrasi" layoutX="1612.75" layoutY="30.75" mnemonicParsing="false" onAction="#handleRegistrasiButtonAction" prefHeight="79.0" prefWidth="234.0" style="-fx-background-color: black;" text="Registrasi" textFill="WHITE">
+               <font>
+                  <Font name="Century Gothic Bold" size="26.0" />
+               </font>
+            </Button>
+            <Label fx:id="errorLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="731.75" layoutY="741.75">
+               <font>
+                  <Font name="Century Gothic Bold" size="22.0" />
+               </font>
+            </Label>
+         </children>
+      </Group>
+   </children>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+</AnchorPane>
